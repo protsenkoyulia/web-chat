@@ -1,0 +1,24 @@
+{
+  "name": "web-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "vue": "^3.4.27",
+    "vue-resource": "^1.5.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "babel-loader": "^9.1.3",
+    "vue-loader": "^17.4.2",
+    "vue-template-compiler": "^2.7.16",
+    "vue-template-loader": "^1.1.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
